@@ -27,7 +27,6 @@ void	ra(t_stack **a, int j)
 		write(1, "ra\n", 3);
 }
 
-
 void	sa(t_stack **a, int j)
 {
 	t_stack	*tmp;

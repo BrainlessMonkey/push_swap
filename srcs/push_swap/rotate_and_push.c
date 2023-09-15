@@ -9,7 +9,6 @@
 /*   Updated: 2023/09/15 21:06:33 by adedieu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "../../includes/push_swap.h"
 
 int	rarb(t_stack **a, t_stack **b, int c, char s)

@@ -68,8 +68,6 @@ int	rotate_type_ba(t_stack *a, t_stack *b)
 		if (i > move_a1(a, b, tmp->nbr))
 			i = move_a1(a, b, tmp->nbr);
 		if (i > move_a2(a, b, tmp->nbr))
-		if (i > move_a2(a, b, tmp->nbr))
-		if (i > move_a2(a, b, tmp->nbr))
 			i = move_a2(a, b, tmp->nbr);
 		if (i > move_a3(a, b, tmp->nbr))
 			i = move_a3(a, b, tmp->nbr);

@@ -75,6 +75,7 @@ t_stack	*sort_b(t_stack **stack_a)
 		sort_three(stack_a);
 	return (stack_b);
 }
+
 t_stack	**sort_a(t_stack **stack_a, t_stack **stack_b)
 {
 	int		i;

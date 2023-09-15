@@ -9,7 +9,6 @@
 /*   Updated: 2023/09/15 21:06:33 by adedieu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "../../includes/push_swap.h"
 
 void	pb(t_stack **stack_a, t_stack **stack_b, int j)
