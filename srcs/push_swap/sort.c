@@ -13,13 +13,13 @@
 
 void	sort_three(t_stack **stack_a)
 {
-	if ((*stack_a)->nbr < (*stack_a)->next->nbr 
+	if ((*stack_a)->nbr < (*stack_a)->next->nbr
 		&& (*stack_a)->nbr < (*stack_a)->next->next->nbr)
 	{
 		rra(stack_a, 0);
 		sa(stack_a, 0);
 	}
-	else if ((*stack_a)->nbr > (*stack_a)->next->nbr 
+	else if ((*stack_a)->nbr > (*stack_a)->next->nbr
 		&& (*stack_a)->nbr > (*stack_a)->next->next->nbr)
 	{
 		ra(stack_a, 0);
